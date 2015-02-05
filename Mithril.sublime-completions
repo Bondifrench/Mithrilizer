@@ -1,0 +1,21 @@
+{
+	"scope": "source.js",
+	"completions":
+	[
+		{"trigger": "m\tm() Mithril", "contents": "m('${1:div}',{\n\t${2:style: { \\}}, \n\t${3:config: 'function name'}\n\t},[\n\t\t${4:'Children'}\n\t]);"},
+		{"trigger": "mi\tinput Mithril", "contents": "m('input${1:[type=]}', ${2:oninput:}, value: $3);"},
+		{"trigger": "ma\tlink Mithril", "contents": "m('a[href=${1:/myroute}]', {config: ${2:m.route}}, ${3:'Myroute'});"},
+		{"trigger": "mm\tmodule Mithril", "contents": "var ${1:mymodule} = {};\n\nmymodule.vm = ${2:'Object literal \\{\\} or function Constructor'}\n\nmymodule.controller = function (options) {\n\t${3:mymodule.vm.init();}\n};\n\nmymodule.view = function (ctrl) {\n\treturn ${4:'view here'};\n}\nm.module(document${5:.body}, mymodule);"},
+		{"trigger": "mp\tgetter/setter Mithril", "contents" : "m.prop(${1:'initial value'});"},
+		{"trigger": "mw\tevent handler Mithril", "contents": "m.withAttr(${1:'string here'}, ${2:callback});"},
+		{"trigger": "mreq\t ajax request Mithril", "contents": "m.request({\n\tmethod: ${1:'GET/POST'},\n\turl: ${2:'/user'},\n\t${3:dataType: ,}\n\t${4:callbackKey: ,}\n\t${5:type: ,}\n})"},
+		{"trigger": "mro\t routing Mithril", "contents": "m.route({${1:root Element}, ${2:'/defaultRoute'},\n\t${3:'/route1'}: ${4:Module name}\n\n\t});\n\nm.route.mode = '${5:search/hash/pathname}';"},
+		{"trigger": "md\tpromise Mithril", "contents" : "m.deferred(${1:'initial value'});"},
+		{"trigger": "ms\tpromises list Mithril", "contents" : "m.sync([\n\t${1:Array of promises}\n]);"},
+		{"trigger": "mt\ttrusted HTML Mithril", "contents" : "m.trust(${1:content});"},
+		{"trigger": "mren\trender DOM Mithril", "contents" : "m.render(${1:root Element}, [\n\t${2:'Children elements'}\n]);"},
+		{"trigger": "mrd\tredraw Mithril", "contents" : "m.redraw(${1:true/false});"},
+		{"trigger": "mrs\tredraw strategy Mithril", "contents" : "m.redraw.strategy('$1all/diff/none');"},
+		{"trigger": "mst\tstart/end computation Mithril", "contents" : "m.startComputation();\n$1\nm.endComputation();"}
+	]
+}
