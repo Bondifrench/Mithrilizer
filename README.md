@@ -5,7 +5,7 @@ Sublime package for auto completions of common Mithril methods
 
 Once installed, you need to be on a page with the syntax set to Javascript
 
-###m for m()
+###m -> m()
 will display:
 ```javascript
 m('div',{
@@ -17,20 +17,20 @@ m('div',{
 ```
 More details on the use of m() [here](http://lhorie.github.io/mithril/mithril.html)  
 
-###mi for m('input')
+###mi -> m('input')
 will display:
 ```javascript
 m('input[type=]', oninput:, value: )
 ```
 More details on the use of m() [here](http://lhorie.github.io/mithril/mithril.html)
 
-###ma for m('a')
+###ma -> m('a')
 ```javascript 
 m('a[href=/myroute]', {config: m.route}, 'Myroute')
 ```
 More details on the use of m() [here](http://lhorie.github.io/mithril/mithril.html)
 
-###mm for Mithril module  
+###mm -> Mithril module  
 Will display:
 ```javascript
 var mymodule = {};
@@ -48,21 +48,21 @@ m.module(document.body, mymodule);
 ```
 More details on the use of m.module() [here](http://lhorie.github.io/mithril/mithril.module.html)
 
-###mp for m.prop()
+###mp -> m.prop()
 Will display:
 ```javascript
 m.prop('initial value');
 ```
 More details on the use of m.prop() [here](http://lhorie.github.io/mithril/mithril.prop.html)
 
-###mw for m.withAttr()
+###mw -> m.withAttr()
 Will display:
 ```javascript
 m.withAttr('string here', callback here)
 ```
 More details on the use of m.withAttr() [here](http://lhorie.github.io/mithril/mithril.withAttr.html)
 
-###mro for m.route()
+###mro -> m.route()
 Will display:
 ```javascript
 m.route({root Element, '/defaultRoute',
@@ -72,7 +72,7 @@ m.route({root Element, '/defaultRoute',
 ```
 More details on the use of m.route() [here](http://lhorie.github.io/mithril/mithril.route.html)
 
-###mreq for m.request()
+###mreq -> m.request()
 Will display:
 ```javascript
 m.request({
@@ -85,14 +85,14 @@ m.request({
 ```
 More details on the use of m.request() [here](http://lhorie.github.io/mithril/mithril.request.html)
 
-###md for m.deferred()
+###md -> m.deferred()
 Will display:
 ```javascript
 m.deferred('initial value');
 ```
 More details on the use of m.deferred() [here](http://lhorie.github.io/mithril/mithril.deferred.html)
 
-###ms for m.sync([])
+###ms -> m.sync([])
 Will display:
 ```javascript
 m.sync([
@@ -101,14 +101,14 @@ m.sync([
 ```
 More details on the use of m.sync() [here](http://lhorie.github.io/mithril/mithril.sync.html)
 
-###mt for m.trust()
+###mt -> m.trust()
 Will display:
 ```javascript
 m.trust(content);
 ```
 More details on the use of m.trust() [here](http://lhorie.github.io/mithril/mithril.trust.html)
 
-###mren for m.render()
+###mren -> m.render()
 Will display:
 ```javascript
 m.render(root Element, [
@@ -117,21 +117,21 @@ m.render(root Element, [
 ```
 More details on the use of m.render() [here](http://lhorie.github.io/mithril/mithril.render.html)
 
-###mrd for m.redraw()
+###mrd -> m.redraw()
 Will display:
 ```javascript
 m.redraw(true/false);
 ```
 More details on the use of m.redraw() [here](http://lhorie.github.io/mithril/mithril.redraw.html)
 
-###mrs for m.redraw.strategy()
+###mrs -> m.redraw.strategy()
 Will display:
 ```javascript
 m.redraw.strategy('all/diff/none');
 ```
 More details on the use of m.redraw.strategy() [here](http://lhorie.github.io/mithril/mithril.redraw.html#strategy)
 
-###mst for m.startComputation() and m.endComputation()
+###mst -> m.startComputation() and m.endComputation()
 Will display:
 ```javascript
 m.startComputation();
