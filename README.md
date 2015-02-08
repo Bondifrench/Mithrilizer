@@ -68,7 +68,9 @@ Will display:
 m.route({root Element, '/defaultRoute',
 	'/route1': Module name
 
-	})
+	});
+
+m.route.mode = 'search/hash/pathname';
 ```
 More details on the use of m.route() [here](http://lhorie.github.io/mithril/mithril.route.html)
 
