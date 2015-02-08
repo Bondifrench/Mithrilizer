@@ -3,6 +3,14 @@ Sublime package for auto completions of common Mithril methods
 
 [Mithril](http://lhorie.github.io/mithril/index.html) is a client-side MVC lightweight Javascript framework created by Leo Horie
 
+## Installation
+
+### [Package Control](https://sublime.wbond.net/installation)
+
+1. Open Package Control: `Preferences -> Package Control`
+2. Select `Package Control: Install Package`
+3. Type `Mithrilizer` into the search box and select the package to install it
+
 Once installed, you need to be on a page with the syntax set to Javascript
 
 ###m -> m()
