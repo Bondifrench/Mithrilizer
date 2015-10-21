@@ -1,5 +1,5 @@
 # Mithrilizer
-Sublime package for auto completions of common Mithril methods
+Sublime package for auto completions of common Mithril methods  
 [Needs to be updated with Mithril 2.0 API]
 [Mithril](http://lhorie.github.io/mithril/index.html) is a client-side MVC lightweight Javascript framework created by Leo Horie
 
